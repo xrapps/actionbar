@@ -11,6 +11,15 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F71320DB10094366B51EB868 /* SmoochSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CABD29703CBD48AA8F2BFEB7 /* SmoochSans-Black.ttf */; };
+		DFCBC2ED85374EFD8767779F /* SmoochSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 534506D32513409C923D4039 /* SmoochSans-Bold.ttf */; };
+		7133A19F6C3141FDB680E404 /* SmoochSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EAED14C45CA424FA9C2669F /* SmoochSans-ExtraBold.ttf */; };
+		EF35E773CC524789AC8E79C9 /* SmoochSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B82A3280ED2945CFAACD6502 /* SmoochSans-ExtraLight.ttf */; };
+		BD1E5F432EA94BA09DFE77C6 /* SmoochSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3127744208394CB8918D7CB7 /* SmoochSans-Light.ttf */; };
+		A75383BA3AC344EC987F032A /* SmoochSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9519628AA2004747B726F29F /* SmoochSans-Medium.ttf */; };
+		C19FF2EE99EB4B17906B153E /* SmoochSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 887FD45B413D466FBAA62432 /* SmoochSans-Regular.ttf */; };
+		7B20080AE9F24C67848B7413 /* SmoochSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2146DDB9354406891A100CB /* SmoochSans-SemiBold.ttf */; };
+		988960E501694E54A71EB4DE /* SmoochSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2082048DE5E94B6489C27B82 /* SmoochSans-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,15 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = actionbar/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = actionbar/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		CABD29703CBD48AA8F2BFEB7 /* SmoochSans-Black.ttf */ = {isa = PBXFileReference; name = "SmoochSans-Black.ttf"; path = "../assets/fonts/SmoochSans-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		534506D32513409C923D4039 /* SmoochSans-Bold.ttf */ = {isa = PBXFileReference; name = "SmoochSans-Bold.ttf"; path = "../assets/fonts/SmoochSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9EAED14C45CA424FA9C2669F /* SmoochSans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "SmoochSans-ExtraBold.ttf"; path = "../assets/fonts/SmoochSans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B82A3280ED2945CFAACD6502 /* SmoochSans-ExtraLight.ttf */ = {isa = PBXFileReference; name = "SmoochSans-ExtraLight.ttf"; path = "../assets/fonts/SmoochSans-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3127744208394CB8918D7CB7 /* SmoochSans-Light.ttf */ = {isa = PBXFileReference; name = "SmoochSans-Light.ttf"; path = "../assets/fonts/SmoochSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9519628AA2004747B726F29F /* SmoochSans-Medium.ttf */ = {isa = PBXFileReference; name = "SmoochSans-Medium.ttf"; path = "../assets/fonts/SmoochSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		887FD45B413D466FBAA62432 /* SmoochSans-Regular.ttf */ = {isa = PBXFileReference; name = "SmoochSans-Regular.ttf"; path = "../assets/fonts/SmoochSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2146DDB9354406891A100CB /* SmoochSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "SmoochSans-SemiBold.ttf"; path = "../assets/fonts/SmoochSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2082048DE5E94B6489C27B82 /* SmoochSans-Thin.ttf */ = {isa = PBXFileReference; name = "SmoochSans-Thin.ttf"; path = "../assets/fonts/SmoochSans-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +111,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				48961111FEB44DECB02E6C61 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,6 +134,23 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		48961111FEB44DECB02E6C61 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				CABD29703CBD48AA8F2BFEB7 /* SmoochSans-Black.ttf */,
+				534506D32513409C923D4039 /* SmoochSans-Bold.ttf */,
+				9EAED14C45CA424FA9C2669F /* SmoochSans-ExtraBold.ttf */,
+				B82A3280ED2945CFAACD6502 /* SmoochSans-ExtraLight.ttf */,
+				3127744208394CB8918D7CB7 /* SmoochSans-Light.ttf */,
+				9519628AA2004747B726F29F /* SmoochSans-Medium.ttf */,
+				887FD45B413D466FBAA62432 /* SmoochSans-Regular.ttf */,
+				D2146DDB9354406891A100CB /* SmoochSans-SemiBold.ttf */,
+				2082048DE5E94B6489C27B82 /* SmoochSans-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -185,6 +221,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F71320DB10094366B51EB868 /* SmoochSans-Black.ttf in Resources */,
+				DFCBC2ED85374EFD8767779F /* SmoochSans-Bold.ttf in Resources */,
+				7133A19F6C3141FDB680E404 /* SmoochSans-ExtraBold.ttf in Resources */,
+				EF35E773CC524789AC8E79C9 /* SmoochSans-ExtraLight.ttf in Resources */,
+				BD1E5F432EA94BA09DFE77C6 /* SmoochSans-Light.ttf in Resources */,
+				A75383BA3AC344EC987F032A /* SmoochSans-Medium.ttf in Resources */,
+				C19FF2EE99EB4B17906B153E /* SmoochSans-Regular.ttf in Resources */,
+				7B20080AE9F24C67848B7413 /* SmoochSans-SemiBold.ttf in Resources */,
+				988960E501694E54A71EB4DE /* SmoochSans-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
