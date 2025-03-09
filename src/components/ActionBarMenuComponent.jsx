@@ -60,7 +60,7 @@ export default function ({item}) {
           <Text style={styles.price}>{item?.price} $</Text>
 
           <TouchableOpacity onPress={toggleCart}>
-            <Text style={styles.button}>{added ? 'УБРАТЬ' : 'В КОРЗИНУ'}</Text>
+            <Text style={!added ? styles.button : styles.buttonActive}>{added ? 'УБРАТЬ' : 'В КОРЗИНУ'}</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -126,6 +126,18 @@ const styles = StyleSheet.create({
     color: COLORS.white,
     borderColor: COLORS.black,
     backgroundColor: COLORS.main,
+    paddingHorizontal: 14,
+    paddingVertical: 4,
+    marginRight: 10,
+    borderRadius: 8,
+  },
+  buttonActive: {
+    fontFamily: FONTS.black,
+    textAlign: 'center',
+    fontSize: 14,
+    color: COLORS.white,
+    borderColor: COLORS.black,
+    backgroundColor: COLORS.red,
     paddingHorizontal: 14,
     paddingVertical: 4,
     marginRight: 10,
